@@ -1,1 +1,6 @@
 # social-selling
+
+
+gulp watch
+
+
