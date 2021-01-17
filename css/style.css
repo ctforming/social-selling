@@ -9736,6 +9736,14 @@ body.sidebar-open::before {
   text-align: center;
 }
 
+.banner .container {
+  padding-top: 100px;
+}
+
+.banner .container .sub-title {
+  padding-top: 20px;
+}
+
 .content-wrapper {
   padding: 27px 0px;
 }
@@ -9780,6 +9788,10 @@ body.sidebar-open::before {
   transform: scale(1.1);
 }
 
+.digital-marketing-service {
+  margin-bottom: 100px;
+}
+
 @media (max-width: 992px) {
   .digital-marketing-service .flex-item:nth-of-type(1) {
     order: 2;
@@ -9790,10 +9802,6 @@ body.sidebar-open::before {
   .digital-marketing-service .img-digital {
     text-align: center;
   }
-}
-
-.case-studies {
-  margin-top: 100px;
 }
 
 .case-studies .color-cards .card-contents {
@@ -9893,6 +9901,7 @@ body.sidebar-open::before {
 }
 
 .contact-details a {
+  padding-top: 15px;
   color: #6e6e6e;
   transition: all 0.6s ease-in-out;
 }

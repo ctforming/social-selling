@@ -34,6 +34,14 @@ body {
 .banner {
   background-color: #f7f8fa;
   text-align: center;
+
+  .container {
+    padding-top: 100px;
+
+    .sub-title {
+      padding-top: 20px;
+    }
+  }
 }
 
 .content-wrapper {
@@ -74,6 +82,7 @@ body {
 
 // SECTION-3
 .digital-marketing-service {
+  margin-bottom: 100px;
   @media (max-width: 992px) {
     .flex-item:nth-of-type(1) { order: 2; }
     .flex-item:nth-of-type(2) { order: 1; }
@@ -85,7 +94,6 @@ body {
 
 // SECTION-4
 .case-studies {
-  margin-top: 100px;
   .color-cards {
     .card-contents {
       position: relative;
@@ -184,6 +192,7 @@ body {
     }
   }
   a {
+    padding-top: 15px;
     color: $text-muted;
     transition: all 0.6s ease-in-out;
     &:hover {
