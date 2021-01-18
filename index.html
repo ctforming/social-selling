@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/aos/css/aos.css">
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
   <header id="header-section" >
@@ -339,15 +340,19 @@
         <div class="row text-center text-md-left justify-content-center">
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
             <h5 class="pb-2">Nos coordonnées</h5>
-            <p class="text-muted m-0"></p>cathytouin@ctforming.fr</p>
-            <p class="text-muted m-0">06 62 80 94 17</p>
+            <p class="text-muted m-0"></span></p>
+              <a href="mailto:cathytouin@ctforming.fr" target="_blank">
+                cathytouin@ctforming.fr
+              </a> 
+            </p> 
+            <p class="text-muted m-0"><span class="mdi mdi-phone"> </span>06 62 80 94 17</p>
             <div class="d-flex justify-content-center justify-content-md-start">
               <a href="https://www.facebook.com/CTForming" target="_blank"><span class="mdi mdi-facebook"></span></a>
               <a href="https://www.linkedin.com/in/cathytouin" target="_blank"><span class="mdi mdi-linkedin"></span></a>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2">Divers</h5>
+            <h5 class="pb-2"></h5>
             <a href="#"><p class="m-0 pt-1 pb-2" data-toggle="modal" data-target="#cookiesModal">Cookie Policy</p></a> 
           </div>
         </div>  
@@ -359,30 +364,30 @@
       <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
+            <form action="https://formspree.io/f/xeqpnopr" method="POST">
             <div class="modal-header">
               <h4 class="modal-title" id="exampleModalLabel">Contactez-nous</h4>
             </div>
             <div class="modal-body">
-              <form>
                 <div class="form-group">
                   <label for="Name">Nom</label>
-                  <input type="text" class="form-control" id="Name" placeholder="Nom">
+                  <input type="text" name="name" class="form-control" id="Name" placeholder="Nom">
                 </div>
                 <div class="form-group">
                   <label for="Email">Email</label>
-                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                  <input type="email" name="_replyto" class="form-control" id="Email-1" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <label for="Message">Message</label>
-                  <textarea class="form-control" id="Message" placeholder="Tapez votre message"></textarea>
+                  <textarea name="message" class="form-control" id="Message" placeholder="Tapez votre message"></textarea>
                 </div>
-              </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-light" data-dismiss="modal">Annuler</button>
-              <button type="button" class="btn btn-success">Envoyez</button>
+              <button type="submit" value="Send" class="btn btn-success">Envoyez</button>
             </div>
-          </div>
+            </form>
+        </div>
         </div>
       </div>
 
