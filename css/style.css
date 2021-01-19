@@ -10105,6 +10105,16 @@ footer a:hover {
   min-width: 100%;
 }
 
+.nk-cookie-banner {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0px;
+  display: none;
+}
+
 .btn {
   font-size: 0.875rem;
   font-family: 'Poppins', sans-serif;

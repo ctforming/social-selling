@@ -44,11 +44,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#programme-formation">Formations</a>  
           </li>
-          <!--
           <li class="nav-item">
             <a class="nav-link" href="#feedback-section">Témoignages</a>
           </li>
-          -->
           <li class="nav-item btn-contact-us pl-4 pl-lg-0">
             <button class="btn btn-info" data-toggle="modal" data-target="#contactModal">Contactez-nous</button>
           </li>
@@ -214,7 +212,7 @@
           </div>
         </div>
       </section>     
-      <!--
+
       <section class="customer-feedback" id="feedback-section">
         <div class="row">
           <div class="col-12 text-center pb-5">
@@ -324,7 +322,6 @@
           </div>
         </div>
       </section>
-      -->
       <section class="contact-us" id="contact-section">
         <div class="contact-us-bgimage grid-margin" >
           <div class="pb-4">
@@ -352,8 +349,8 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 grid-margin">
-            <h5 class="pb-2"></h5>
-            <a href="#"><p class="m-0 pt-1 pb-2" data-toggle="modal" data-target="#cookiesModal">Cookie Policy</p></a> 
+            <h5 class="pb-2">Informations</h5>
+            <a href="#"><p class="m-0 pt-1 pb-2" data-toggle="modal" data-target="#cookiesModal">Politique des cookies</p></a> 
           </div>
         </div>  
       </section>
@@ -399,9 +396,8 @@
               <h4 class="modal-title" id="exampleModalLabel">Politique des cookies</h4>
             </div>
             <div class="modal-body">
-              <p class="text-muted">
-                mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.mettre le texte des cookies.
-              </p>              
+              <p class="text-muted">Nous utilisons les cookies afin de fournir les services et fonctionnalités proposés sur notre site et afin d’améliorer l’expérience de nos utilisateurs. Les cookies sont des données qui sont téléchargés ou stockés sur votre ordinateur ou sur tout autre appareil.</p>
+              <p class="text-muted">En cliquant sur ”J’accepte”, vous acceptez l’utilisation des cookies. Vous pourrez toujours les désactiver ultérieurement. Si vous supprimez ou désactivez nos cookies, vous pourriez rencontrer des interruptions ou des problèmes d’accès au site.</p>              
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-light" data-dismiss="modal">Fermer</button>
@@ -410,6 +406,13 @@
         </div>
       </div>
 
+      <div class="nk-cookie-banner alert alert-dark text-center mb-0" role="alert">
+        🍪 Ce site web utilise des cookies pour vous garantir la meilleure expérience possible sur notre site web.
+        <a href="#"><p class="m-0 pt-1 pb-2" data-toggle="modal" data-target="#cookiesModal">En savoir plus</p></a> 
+        <button type="button" class="btn btn-info btn-sm ml-3" onclick="window.nk_hideCookieBanner()">
+          J’accepte
+        </button>
+      </div>
 
     </div> 
   </div>
@@ -418,5 +421,6 @@
   <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
   <script src="vendors/aos/js/aos.js"></script>
   <script src="js/landingpage.js"></script>
+  <script src="js/cookie-banner.js"></script>
 </body>
 </html>
