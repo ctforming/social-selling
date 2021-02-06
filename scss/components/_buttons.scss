@@ -17,6 +17,11 @@
   &:focus {
     box-shadow: none;
   }
+
+  .btn-custom {
+    color: #e27444;
+  }
+
 }
 
 @each $color, $value in $theme-colors {
