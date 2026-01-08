@@ -1,6 +1,6 @@
 # social-selling
 
 
-gulp watch
+
 
 
