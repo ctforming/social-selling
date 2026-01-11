@@ -15,7 +15,8 @@ const pages = [
     { name: 'pedagogie', title: 'Pédagogie' },
     { name: 'contexte', title: 'Contexte' },
     { name: 'formations', title: 'Formations' },
-    { name: 'temoignages', title: 'Témoignages' }
+    { name: 'temoignages', title: 'Témoignages' },
+    { name: 'politique-confidentialite', title: 'Confidentialité' }
 ];
 
 // Fonction pour lire un fichier
