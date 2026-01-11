@@ -1,0 +1,13 @@
+{
+  "name": "ctforming-site",
+  "version": "1.0.0",
+  "description": "Site statique CT Forming avec système de génération Node.js",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js"
+  },
+  "author": "CT Forming",
+  "license": "MIT",
+  "private": true
+}
