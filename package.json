@@ -1,11 +1,11 @@
 {
   "name": "ctforming-site",
   "version": "1.0.0",
-  "description": "Site statique CT Forming avec système de génération Node.js",
-  "main": "build.js",
+  "description": "Site statique CT Forming",
+  "main": "index.html",
   "scripts": {
-    "build": "node build.js",
-    "start": "node build.js"
+    "build": "node site-generator/build.js",
+    "start": "node site-generator/build.js"
   },
   "author": "CT Forming",
   "license": "MIT",

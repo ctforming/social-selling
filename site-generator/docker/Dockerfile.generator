@@ -1,0 +1,19 @@
+# Dockerfile pour le générateur de site statique
+# Utilise une image Node.js légère
+FROM node:18-alpine
+
+# Métadonnées
+LABEL maintainer="CT Forming"
+LABEL description="Générateur de site statique pour CT Forming"
+
+# Répertoire de travail
+WORKDIR /app
+
+# Copier uniquement les fichiers nécessaires pour le générateur
+COPY . ./
+
+# Installer les dépendances (si besoin)
+# RUN npm install
+
+# Commande par défaut : générer le site
+CMD ["node", "build.js"]

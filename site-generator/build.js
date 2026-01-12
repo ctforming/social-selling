@@ -5,8 +5,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Créer le répertoire pages s'il n'existe pas
-if (!fs.existsSync('pages')) {
-    fs.mkdirSync('pages');
+if (!fs.existsSync('../pages')) {
+    fs.mkdirSync('../pages');
 }
 
 // Liste des pages à générer
@@ -68,7 +68,7 @@ ${modals}
 ${footer}`;
     
     // Écrire la page finale
-    writeFile(`pages/${pageName}.html`, pageContent);
+    writeFile(`../pages/${pageName}.html`, pageContent);
 }
 
 // Générer toutes les pages

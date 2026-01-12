@@ -1,0 +1,37 @@
+# Fichiers et dossiers à ignorer pour Docker
+
+# Ignorer les fichiers git
+.git
+.gitignore
+
+# Ignorer node_modules
+node_modules/
+
+# Ignorer les fichiers de configuration locaux
+.env
+*.env
+
+# Ignorer les fichiers de build et cache
+.DS_Store
+*.log
+*.pid
+
+# Ignorer les fichiers de documentation
+doc/
+docs/
+
+# Ignorer les archives
+*.zip
+*.tar
+*.gz
+
+# Ignorer les fichiers de configuration d'éditeur
+.vscode/
+.idea/
+
+# Ignorer les fichiers de build Docker (pour éviter les conflits)
+Dockerfile.*
+docker-compose.*
+
+# Ignorer le dossier archive-not-used
+archive-not-used/

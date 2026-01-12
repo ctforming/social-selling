@@ -1,0 +1,13 @@
+{
+  "name": "ctforming-site-generator",
+  "version": "1.0.0",
+  "description": "Générateur de site statique pour CT Forming",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js"
+  },
+  "author": "CT Forming",
+  "license": "MIT",
+  "private": true
+}
